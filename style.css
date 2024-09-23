@@ -4,9 +4,9 @@
 }
 
 body {
-    background-image: url(dark-space-wallpaper-7h5brw4094b65ky5.jpg);
+    background-image: url(pxfuel.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:200cap;
     padding: 6vh;
 }
 
@@ -14,6 +14,9 @@ body {
     font-size: 10vh;
     font-family: DM Sans;
     margin-top: 0;
+}
+.name:hover{
+    color: rgb(35, 213, 244);
 }
 
 #container {
@@ -55,7 +58,7 @@ a {
 
 #parent_container {
     display: flex;
-    height: 100vh;
+    height: 75vh;
 }
 
 #search {
@@ -69,12 +72,26 @@ a {
     height: 4vh;
     width: 50vh;
     font-size: 2vh;
+    border-radius: 10px;
 }
 #searchB{
     background-color: black;
-    border-radius: 20px solid white;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+#searchB:hover{
+    background-color: rgb(35, 213, 244);
+    color: black;
 }
 #clear{
     background-color: black;
-    border-radius: 20px solid white;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+#clear:hover{
+    background-color: rgb(35, 213, 244);
+    color: black;
+}
+a:hover{
+    color:rgb(35, 213, 244) ;
 }
