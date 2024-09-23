@@ -1,0 +1,80 @@
+* {
+    color: white;
+    font-family: DM Sans;
+}
+
+body {
+    background-image: url(dark-space-wallpaper-7h5brw4094b65ky5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6vh;
+}
+
+.name {
+    font-size: 10vh;
+    font-family: DM Sans;
+    margin-top: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80vh;
+    max-height: 80vh;
+    background-color: rgba(237, 237, 228, 0.151);
+    font-size: 3vh;
+    padding: 1vh;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+#box1 {
+    padding: 1vh;
+    color: rgb(35, 213, 244);
+}
+
+#box2 {
+    padding: 1vh;
+    font-size: 3vh;
+}
+
+a {
+    color: white;
+    border-radius: 50px;
+    font-size: large;
+    font-weight: 600;
+
+}
+
+#megabox {
+    align-items: center;
+    margin: auto;
+    margin-top: 10vh;
+    height: 80vh;
+}
+
+#parent_container {
+    display: flex;
+    height: 100vh;
+}
+
+#search {
+    align-items: center;
+    height: 3vh;
+    width: 40vh;
+}
+
+#searchI{
+    color: black;
+    height: 4vh;
+    width: 50vh;
+    font-size: 2vh;
+}
+#searchB{
+    background-color: black;
+    border-radius: 20px solid white;
+}
+#clear{
+    background-color: black;
+    border-radius: 20px solid white;
+}
